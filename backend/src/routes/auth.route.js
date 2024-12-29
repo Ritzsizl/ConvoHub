@@ -12,7 +12,7 @@ router.post('/signup', signup)
 
 router.post('/login', login)
 
-router.put('/update-proffile', protectRoute, updateProfile)
+router.put('/update-profile', protectRoute, updateProfile)
 
 router.get('/check', protectRoute, checkAuth)
 
